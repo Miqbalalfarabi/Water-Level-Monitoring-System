@@ -1,0 +1,72 @@
+.wrap /*keseluruhan halaman index*/
+{
+	background: black;
+	width: 1280px;
+	margin: 15px auto;
+	font-family: sans-serif;
+}
+/*header*/
+.wrap .header
+{
+	background: black;
+	padding: 2px 10px;
+}
+/*menu*/
+.wrap .menu
+{
+	background: yellow;
+}
+/*format penulisan header*/
+h1,h2
+{
+	color:gold;
+	font-weight:lighter;
+	letter-spacing: .1em;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+}
+/*format penulisan paragraf*/
+p
+{
+	color: gold;
+	font-style: italic;
+}
+.wrap .menu ul /*tab header*/
+{
+	padding: 0;
+	margin: 0;
+	background: yellow;
+	overflow: scroll;
+	text-decoration: none;
+}
+.wrap .menu ul li/*pembatas antar menu header*/
+{
+	float:left;
+	list-style-type: none;
+	padding: 10px;
+	border-right: 2px solid black;
+}
+.badan /*besar piksel div : badan*/
+{
+	height: 450px;
+}
+.wrap .badan .menusamping /*format sidebar*/
+{
+	background: orange;
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+.wrap .badan .konten /*format konten*/
+{
+	padding-left:25px;
+	float: right;
+	background: gray;
+	height: 100%;
+	width:78%;
+}
+.wrap .footer /*format footer */
+{
+	width:100%;
+	padding: 1px;
+}
