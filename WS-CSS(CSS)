@@ -1,0 +1,24 @@
+.wrap
+{
+	background: #E0FFFF;
+	width: 1280px;
+	height: 768px;
+	margin:15px;
+	font-family: sans-serif;
+}
+.wrap .header ul
+{
+	padding: 0;
+	margin:0;
+	background: #40E0D0;
+	overflow: hidden;
+	text-decoration: none;
+}
+.wrap .header ul li
+{
+	float: left;
+	list-style-type: none;
+	padding : 10px;
+	border-left: 2px solid black;
+
+}
