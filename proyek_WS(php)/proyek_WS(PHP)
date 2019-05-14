@@ -1,0 +1,60 @@
+<?php include "config.php"; ?>
+
+<?php 
+$query = "SELECT * from request;";
+$result = $conn-> query($query);
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyek WS</title>
+	<link rel="stylesheet" type="text/css" href="ws-css.css">
+</head>
+<body>
+	<div class="wrap">
+	<h1 align="center">Hasil pembacaan ketinggian air sungai</h1>
+	<div class="header">
+		<ul>
+			<li><a href="proyek_WS.php"> Beranda</a></li>
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">PHP</a></li>
+			<li><a href="#">JQuery</a></li>
+			<li><a href="#">Bootstrap</a></li>
+			<li><a href="proyek_WS.php">Proyek WS</a></li>
+		</ul>
+	</div>
+		<div class="isi">
+			<table border="1" align="center">
+				<th>Waktu</th>
+				<th>Ketinggian Air</th>
+				<tbody>
+				<?php $i=0;
+            while($r=mysqli_fetch_array($result))
+            {
+              $waktu = $r['0'];
+              $request = $r['1'];
+             
+
+              ?> <tr>
+              	 <td><?php echo $waktu ?></td>
+            <td><?php echo $request ?>cm</td>
+			<?php $i++; } ?>
+
+                      </tbody>
+			</table>
+
+
+		</div>
+	</div>
+	
+</body>
+
+			</table>
+
+
+		</div>
+	</div>
+	
+</body>
+</html>
