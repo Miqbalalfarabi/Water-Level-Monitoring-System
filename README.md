@@ -15,13 +15,16 @@ Changelog v 1.0 --Repository Started
 
 **WHAT'S THIS PROJECT?**
 
-this project is a project that was made in accordance to the assignment that the lecturer gave to us,In this case we picked a headwater monitoring level system as a sole idea in purpose to warn people about the possible landslide or flood that could happen if the water level reached alerting heights.This repository is filled with string of codes which are required to run the hardware correctly in accordance to our project.
+This project is a project that was made in accordance to the assignment that the lecturer gave to us,In this case we picked a headwater monitoring level system as a sole idea in purpose to warn people about the possible landslide or flood that could happen if the water level reached alerting heights.This repository is filled with string of codes which are required to run the hardware correctly in accordance to our project.
 
 **Tools**
 
 In this project we used tools that are required to get the project going which are:
+
 1.NodeMCU (Esp8266) Module
+
 2.SR-04 Ultrasonic Sensor
+
 3.Anedequate 5V power supply
 
 
