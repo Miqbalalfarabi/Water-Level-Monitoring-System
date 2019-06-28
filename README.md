@@ -9,6 +9,6 @@ Changelog v 1.0.2 --Merged Proyek_WS(PHP),index(CSS),config(PHP),WS-CSS(CSS) int
 
 Changelog v 1.0.1 --Added Arduino Distance formula into repository
 
-Changelog v 1.0 --Github Started
+Changelog v 1.0 --Repository Started
 
 
