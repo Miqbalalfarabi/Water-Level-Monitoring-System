@@ -1,0 +1,30 @@
+.wrap
+{
+	background: #E0FFFF;
+	width: 100%;
+	height: 100%;
+	margin:15px;
+	font-family: sans-serif;
+	align: center;
+	
+}
+.wrap .header ul
+{
+	padding: 0;
+	margin:0;
+	background: #40E0D0;
+	overflow: hidden;
+	text-decoration: none;
+}
+.tabel
+{
+	align: center;
+}
+.wrap .header ul li
+{
+	float: left;
+	list-style-type: none;
+	padding : 10px;
+	border-left: 2px solid black;
+
+}
