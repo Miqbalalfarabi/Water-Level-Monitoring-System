@@ -1,5 +1,4 @@
 # Water-Level-Monitoring-System (WIP)
-Workshop-Code-Dumping-and-Sorting
 
 Changelog v 1.0.5 --Merged new PHP,CSS,HTML into repository
 
@@ -25,7 +24,7 @@ In this project we used tools that are required to get the project going which a
 
 2.SR-04 Ultrasonic Sensor
 
-3.Anedequate 5V power supply
+3.Adequate 5V power supply
 
 
 
