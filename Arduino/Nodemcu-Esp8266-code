@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
  
-const char* ssid     = "rafly"; //nama wifi
-const char* password = "samsunga5"; //password
-const char* host = "192.168.100.14"; //IP PC
+const char* ssid     = "*insert ssid here"; //nama wifi
+const char* password = "*insert password here"; //password
+const char* host = "*insert local ip adress here"; //IP PC
 
 const int trigPin = D3;
 const int echoPin = D2;
