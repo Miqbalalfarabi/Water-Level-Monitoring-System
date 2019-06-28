@@ -1,6 +1,8 @@
 # Water-Level-Monitoring-System (WIP)
 Workshop-Code-Dumping-and-Sorting
 
+Changelog v 1.0.5 --Merged new PHP,CSS,HTML into repository
+
 Changelog v 1.0.4 --Switching from uno to esp8266 module (NodeMCU),Revamped the arduino codes
 
 Changelog v 1.0.3 --Updated Arduino Distance formula(added buzzer and fixed some things)
